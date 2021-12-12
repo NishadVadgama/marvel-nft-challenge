@@ -1,0 +1,25 @@
+.collection {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+
+  .card {
+    flex: 0 0 auto;
+  }
+  // overflow: scroll;
+  // flex: 1;
+  user-select: none;
+  // margin-top: 20px;
+  // padding-bottom: 20px;
+  // -webkit-overflow-scrolling: ;
+
+  // .card {
+  //   flex: 0 0 auto;
+  //   -webkit-overflow-scrolling: touch;
+  // }
+
+  // border-bottom: 1px solid white;
+  // &::-webkit-scrollbar {
+  //   display: none;
+  // }
+}
